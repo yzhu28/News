@@ -53,10 +53,11 @@ div.wrapper p{font-family: 'Times New Roman', Times, serif; font-size: 24px; fon
 
 /* ----------------------------------------------TopBar------------------------------------- */
 
-#topline{padding:10px 0;}
+#topline{padding:30px 0;}
 #topline p{float:left; margin:0; padding:0;}
 #topline ul{float:right; margin:0; padding:0; list-style:none;}
 #topline li{display:inline; margin:0 8px 0 0; padding:0 10px 0 0; border-right:1px solid #999999;}
+#topline li a{font-size: 18px;}
 #topline li.last{margin-right:0; padding-right:0; border:none;}
 
 /* ----------------------------------------------Header------------------------------------- */
@@ -156,7 +157,13 @@ div.wrapper p{font-family: 'Times New Roman', Times, serif; font-size: 24px; fon
     cursor: pointer;
   }
 
-  .button1 {background-color: #008CBA;} /* Blue */
+  .button1 {
+    background-color: #008CBA; /* Blue */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+  } 
 
 /* ----------------------------------------------Footer------------------------------------- */
 
